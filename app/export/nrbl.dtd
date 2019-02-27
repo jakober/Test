@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ausgabe (inhalt)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT inhalt (kategorie)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT kategorie (beitrag|kategorie|name)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT name (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT beitrag (bilder|text|ueberschrift)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ueberschrift (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT text (#PCDATA|b)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT b (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT bilder (bild)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT bild EMPTY>
+<!ATTLIST bild
+    unterschrift CDATA #IMPLIED
+    href CDATA #IMPLIED
+  >

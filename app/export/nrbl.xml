@@ -1,0 +1,23 @@
+<ausgabe>
+    <inhalt>
+        <kategorie>
+            <name>Dischingen</name>
+
+            <kategorie>
+                <name>DRK Dischingen</name>
+                <beitrag>
+                    <ueberschrift>Blahblah</ueberschrift>
+                    <text>Blah Blah <b>Test</b></text>
+                </beitrag>
+                <beitrag>
+                    <ueberschrift>Blahblah</ueberschrift>
+                    <text>Blah Blah <b>Test</b></text>
+                    <bilder>
+                        <bild href="file://Bild1.jpg" unterschrift="Test" />
+                        <bild href="file://Bild2.jpg" unterschrift="Test" />
+                    </bilder>
+                </beitrag>
+            </kategorie>
+        </kategorie>
+    </inhalt>
+</ausgabe>
